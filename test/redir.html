@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<head>
+		<title>HTML Test</title>
+		<script src="./jquery.min.js"></script>
+		<script type="text/javascript">
+			function runAnch(){
+				window.location.href="#/success!";
+			}
+			function initTest(){
+				alert('refreshed');
+			}
+			window.addEventListener('load',initTest);
+		</script>
+	</head>
+	<body>
+		<h4>test redirection</h4>
+		<p>Add Prize</p>
+		<hr />
+		<a onClick="runAnch()">Click here!</a>
+	</body>
+</html>

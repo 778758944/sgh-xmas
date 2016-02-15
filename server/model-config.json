@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "players": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "prizes": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "winner": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "lottery": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "properties": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "wx": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "admin": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "referrer": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "referrerRecords": {
+    "dataSource": "mongo",
+    "public": false
+  }
+}

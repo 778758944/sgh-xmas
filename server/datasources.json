@@ -1,0 +1,12 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "database": "sgh-xmas-2015",
+    "name": "mongo",
+    "connector": "mongodb",
+    "user": "root"
+  }
+}

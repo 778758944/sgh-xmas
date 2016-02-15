@@ -1,0 +1,22 @@
+{
+  "name": "referrerRecords",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "referrerid": {
+      "type": "string",
+      "required": true
+    },
+    "openid": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

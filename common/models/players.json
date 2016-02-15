@@ -1,0 +1,28 @@
+{
+  "name": "players",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "openid": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true
+    },
+    "chances": {
+      "type": "number",
+      "required": true
+    },
+    "played": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
